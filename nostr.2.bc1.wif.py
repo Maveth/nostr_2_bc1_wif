@@ -118,7 +118,7 @@ def main():
             native_bech32_address_qr.save('from_publickey_native_bech32_address_qr.png')
         
         elif choice == '2':
-            user_input = input("Enter a private key (256-bit hex string) or nsec: ")
+            user_input = input("Enter a private hex key or nsec: ")
             print("")
 			
             if len(user_input) == 64:  # Assuming input is a public key
